@@ -14,7 +14,7 @@
   padding: 2rem;
   border-radius: 10px;
   width: 100%;
-  max-width: 480px; /* More compact width */
+  max-width: 480px; 
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
   text-align: center;
 }

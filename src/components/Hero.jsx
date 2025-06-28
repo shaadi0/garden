@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
-import logoImg from '../assets/logo.jpg';  // your logo image path
-import gardenBg from '../assets/garden.jpg'; // your background image path
+import logoImg from '../assets/logo.jpg'; 
+import gardenBg from '../assets/garden.jpg'; 
 
 
 function Hero() {
