@@ -3,7 +3,9 @@ import './Hero.css';
 import logoImg from '../assets/logo.jpg';  // your logo image path
 import gardenBg from '../assets/garden.jpg'; // your background image path
 
+
 function Hero() {
+  
   return (
     <>
       <nav className="navbar">
@@ -28,10 +30,10 @@ function Hero() {
           backgroundImage: `linear-gradient(rgba(0, 80, 0, 0.15), rgba(0, 80, 0, 0.15)), url(${gardenBg})`,
         }}
       >
-        <div className="hero-content">
+        <div className="hero-content" >
           <h1>Navodya Garden Services & Interlock</h1>
           <p>Transforming outdoor spaces with creativity, care, and quality interlock solutions.</p>
-          <button className="hero-btn">Explore Our Services</button>
+          
         </div>
       </section>
     </>

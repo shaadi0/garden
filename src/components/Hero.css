@@ -42,23 +42,26 @@
 
 .nav-btn {
   margin-left: 20px;
-  padding: 10px 18px;
+  padding: 10px 20px;
   font-size: 1rem;
   font-weight: 600;
   color: #2c7a2c;
-  background: transparent;
-  border: 2px solid transparent;
+  background: linear-gradient(135deg, #e0ffe0, #c0f2c0);
+  border: 2px solid #2c7a2c;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease, transform 0.2s ease;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 8px rgba(44, 122, 44, 0.1);
+  text-decoration: none;
 }
 
+
 .nav-btn:hover {
-  background-color: #2c7a2c;
-  color: white;
-  border-color: #2c7a2c;
-  box-shadow: 0 4px 8px rgba(44, 122, 44, 0.3);
+  background: #2c7a2c;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(44, 122, 44, 0.3);
 }
 
 .nav-links button:focus {
